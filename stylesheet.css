@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    width: 42rem;
+    position: absolute;
+}
+
+.odin-opacity-background {
+    position: relative;
+    display: flex;
+    height: 22vh;
+    width: 68.76vh;
+    background-color: rgba(0, 0, 0, 0.267);
+    top: 15rem;    
+    justify-content: center;
+    align-items: center;
+    font-size: 8.8rem;
+    
+}
+
+.odin-opacity-background img {
+    height: 10rem;
+    width: 8rem;
+}
