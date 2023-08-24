@@ -15,28 +15,52 @@ body {
     display: flex;
     flex: 3;
     color: white;
+    min-width: 69vh;
+    background-image: url(./images/pink-clouds-wallpaper-picjumbo-com.jpg);
     background-size: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.banner .clouds-img {
-    width: 35rem;
-    position: absolute;
+.clouds-img {
+    width: 100%;
+    
 }
 
 .odin-opacity-background {
-    position: relative;
     display: flex;
-    height: 22vh;
-    width: 141%;
+    height: 17.7vh;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.267);
-    top: 25vh;    
+    margin-bottom: 13rem;    
     justify-content: center;
     align-items: center;
     font-size: 15vh;
-    
 }
 
 .odin-opacity-background img {
     height: 10rem;
     width: 8rem;
 }
+
+/*------------- Text Section Styling -------------*/
+
+.sign-up-section {
+    background-color: #f4f6fa;
+
+}
+
+
+
+.form-section {
+    height: 20rem;
+    background-color: #FFFFFF;
+    margin-top: 9rem;
+}
+
+.inputs > div {
+    display: flex;
+    
+}
+
