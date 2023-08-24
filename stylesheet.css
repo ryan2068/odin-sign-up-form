@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./Fonts/Norse-Bold.otf");
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -15,7 +20,7 @@ body {
     display: flex;
     flex: 3;
     color: white;
-    min-width: 69vh;
+    min-width: 73.5vh;
     background-image: url(./images/pink-clouds-wallpaper-picjumbo-com.jpg);
     background-size: cover;
     flex-direction: column;
@@ -30,18 +35,19 @@ body {
 
 .odin-opacity-background {
     display: flex;
-    height: 17.7vh;
+    height: 15.5vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.267);
-    margin-bottom: 13rem;    
+    margin-bottom: 26rem;    
     justify-content: center;
     align-items: center;
-    font-size: 15vh;
+    font-size: 10vh;
+    font-family: Norse Bold;
 }
 
 .odin-opacity-background img {
-    height: 10rem;
-    width: 8rem;
+    height: 8rem;
+    width: 6rem;
 }
 
 /*------------- Text Section Styling -------------*/
@@ -54,13 +60,23 @@ body {
 
 
 .form-section {
-    height: 20rem;
+    height: 18rem;
     background-color: #FFFFFF;
-    margin-top: 9rem;
+    margin-top: 1rem;
 }
 
 .inputs > div {
     display: flex;
-    
+    margin: 3rem;
+}
+
+label,input {
+    display: flex;
+}
+
+.headers {
+    margin: 3rem;
+    margin-top: 13rem;
+    font-size: 1.4rem;
 }
 
