@@ -57,7 +57,7 @@ body {
 /*------------- Text Section Styling -------------*/
 
 .sign-up-section {
-    background-color: #f4f6fa;
+    background-color: #f5f7fa;
 }
 
 .form-section { 
@@ -113,7 +113,7 @@ label {
     font-size: 1.2rem;
     color: #FFFFFF;
     font-weight: 700;
-    background-color: rgba(231, 0, 252, 0.349);
+    background-color: rgba(91, 1, 126, 0.404);
 }
 
 .already-have-acct {
@@ -137,4 +137,8 @@ input:invalid + span::after {
     color: rgba(255, 0, 0, 0.973);
 }
 
-
+a {
+    
+    font-weight: 900;
+    color: rgba(91, 1, 126, 0.685);;
+}
