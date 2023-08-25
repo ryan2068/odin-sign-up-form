@@ -3,6 +3,10 @@
     src: url("./Fonts/Norse-Bold.otf");
 }
 
+:root {
+    --left-space: 48px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -20,7 +24,7 @@ body {
     display: flex;
     flex: 3;
     color: white;
-    min-width: 73.5vh;
+    min-width: 63vh;
     background-image: url(./images/pink-clouds-wallpaper-picjumbo-com.jpg);
     background-size: cover;
     flex-direction: column;
@@ -54,24 +58,26 @@ body {
 
 .sign-up-section {
     background-color: #f4f6fa;
-
 }
 
-
-
-.form-section {
-    height: 18rem;
+.form-section { 
     background-color: #FFFFFF;
-    margin-top: 1rem;
+    
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: var(--left-space);
 }
 
 .inputs > div {
     display: flex;
-    margin: 3rem;
+    flex-wrap: wrap;
+    column-gap: 84px;
+    row-gap: 18px;
+    margin-bottom: 18px;
 }
 
 label,input {
-    display: flex;
+    display: flex;   
 }
 
 .headers {
@@ -80,3 +86,7 @@ label,input {
     font-size: 1.4rem;
 }
 
+h3 {
+    margin-top: 0;
+   
+}
