@@ -24,7 +24,7 @@ body {
     display: flex;
     flex: 3;
     color: white;
-    min-width: 63vh;
+    min-width: 73.5vh;
     background-image: url(./images/pink-clouds-wallpaper-picjumbo-com.jpg);
     background-size: cover;
     flex-direction: column;
@@ -62,10 +62,10 @@ body {
 
 .form-section { 
     background-color: #FFFFFF;
-    
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-left: var(--left-space);
+    box-shadow:  0px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 .inputs > div {
@@ -73,7 +73,7 @@ body {
     flex-wrap: wrap;
     column-gap: 84px;
     row-gap: 18px;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
 }
 
 label,input {
@@ -82,11 +82,59 @@ label,input {
 
 .headers {
     margin: 3rem;
-    margin-top: 13rem;
+    margin-top: 12.79rem;
     font-size: 1.4rem;
 }
 
-h3 {
+p {
     margin-top: 0;
-   
+    font-size: 1.22rem;
 }
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.100);
+    box-sizing: border-box;
+}
+
+label {
+    font-size: .7rem;
+    letter-spacing: .1rem;
+}
+
+.create-acct {
+    margin: 2rem;
+    margin-left: 3rem;
+    height: 3rem;
+    width: 14rem;
+    border-radius: 9.5px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: rgba(231, 0, 252, 0.349);
+}
+
+.already-have-acct {
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+
+/*--------------- psuedo class styling -------------*/
+
+input:hover, input:focus-visible {
+    border: 2px solid lightblue;
+}
+
+input:invalid {
+   border: 1px solid red;
+}
+
+input:invalid + span::after {
+    content: "Passwords do not match!";
+    font-size: 0.85rem;
+    color: rgba(255, 0, 0, 0.973);
+}
+
+

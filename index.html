@@ -25,7 +25,7 @@
             
             <form action="#" method="post">
                 <div class="form-section">
-                    <h3>Let's do This!</h3>
+                    <p>Let's do this!</p>
                     <div class="inputs">
                         <div>    
                             <div>
@@ -50,18 +50,20 @@
                         <div>
                             <div>
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" required>
+                                <span></span>
                             </div>
                             <div>
                                 <label for="password">CONFIRM PASSWORD</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" required>
+                                <span></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </form>
-            <p>Create Account</p>
-            <p>Already have an account? Log In</p>
+            <button type="submit" class="create-acct">Create Account</button>
+            <p class="already-have-acct">Already have an account? <a href="#">Log In</a></p>
         </div>
     </div>
 </body>
